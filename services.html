@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Averence Medical Group - Domains of Expertise & Healthcare Solutions">
+    <!-- Open Graph Metadata for Social Previews -->
+    <meta property="og:title" content="Services | Averence Medical Group">
+    <meta property="og:description"
+        content="Advanced service verticals engineered for modern medical institutions and global health infrastructure.">
+    <meta property="og:image" content="https://leybex385.github.io/Averence-Medical-Group/assets/social-preview.png">
+    <meta property="og:url" content="https://leybex385.github.io/Averence-Medical-Group/services.html">
+    <meta property="og:type" content="website">
+
+    <title>Professional Focus | Averence Medical Group</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css?v=2">
+    <!-- Google fonts: Outfit for an established, editorial feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Uncacheable Mobile Nav Overrides */
+        .mobile-toggle { display: none !important; }
+        @media (max-width: 1024px) {
+            .mobile-toggle { display: block !important; }
+            .nav-links { 
+                position: absolute !important; top: 100% !important; left: 0 !important; 
+                width: 100vw !important; background: #F7F6F2 !important; padding: 40px !important; 
+                flex-direction: column !important; display: none !important; 
+                z-index: 10000 !important; box-shadow: 0 10px 40px rgba(0,0,0,0.5) !important;
+                gap: 25px !important; align-items: center !important; text-align: center !important;
+            }
+            .nav-links.active { display: flex !important; }
+            .nav-actions .btn-primary { display: none !important; }
+            .mega-menu { display: none !important; }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Consistent Navbar Structure -->
+    <header class="navbar" id="navbar"
+        style="background: rgba(247, 246, 242, 0.98); backdrop-filter: blur(5px); box-shadow: 0 4px 20px rgba(18, 48, 74, 0.05);">
+        <div class="container nav-content">
+            <div class="logo">
+                <a href="index.html" style="text-decoration:none;"><span class="logo-text">AVERENCE</span></a>
+            </div>
+                        <nav class="nav-links">
+                <a href="index.html#about">About</a>
+                <a href="index.html#products">Products</a>
+                <div class="nav-item has-dropdown">
+                    <a href="index.html#professional-focus" style="display: flex; align-items: center; gap: 5px;">Professional Focus <i class="fas fa-chevron-down" style="font-size:0.7rem;"></i></a>
+                    <!-- Mega Menu Dropdown -->
+                    <div class="mega-menu">
+                        <div class="mega-menu-col">
+                            <h3>CLINICAL SOURCING</h3>
+                            <ul>
+                                <li><a href="services.html#diagnostics">Advanced Diagnostics</a></li>
+                                <li><a href="services.html#consumables">Medical Consumables</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-menu-col">
+                            <h3>CORPORATE LOGISTICS</h3>
+                            <ul>
+                                <li><a href="services.html#procurement">Global Procurement</a></li>
+                                <li><a href="services.html#cross-border">Cross-Border Trade</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-menu-col">
+                            <h3>STRATEGIC ADVISORY</h3>
+                            <ul>
+                                <li><a href="services.html#compliance">Industry Compliance</a></li>
+                                <li><a href="services.html#expansion">Market Expansion</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-item simple-dropdown">
+                    <a href="index.html#case-studies" style="display: flex; align-items: center; gap: 5px;" class="case-studies-link">Case Studies <i class="fas fa-chevron-down" style="font-size:0.7rem;"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="index.html#case-studies">All Case Studies</a>
+                        <a href="case-study.html?id=leading-private-hospital" style="display: flex; justify-content: space-between; align-items: center;">Southeast Asia <i class="fas fa-angle-right" style="font-size: 0.8rem; color: var(--accent-cyan);"></i></a>
+                        <a href="case-study.html?id=university-medical-center" style="display: flex; justify-content: space-between; align-items: center;">Europe <i class="fas fa-angle-right" style="font-size: 0.8rem; color: var(--accent-cyan);"></i></a>
+                        <a href="case-study.html?id=specialized-neuroscience-hospital" style="display: flex; justify-content: space-between; align-items: center;">Middle East <i class="fas fa-angle-right" style="font-size: 0.8rem; color: var(--accent-cyan);"></i></a>
+                    </div>
+                </div>
+                <a href="index.html#leadership">Leadership</a>
+                <a href="index.html#recognition">Recognition</a>
+                <a href="index.html#compliance">Operations</a>
+                <div class="nav-item simple-dropdown lang-mobile">
+                    <a href="#" style="display: flex; align-items: center; gap: 5px;"><i class="fas fa-globe"></i> Language <i class="fas fa-chevron-down" style="font-size:0.7rem;"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="#">English</a>
+                        <a href="#">中文</a>
+                        <a href="#">Español</a>
+                        <a href="#">Français</a>
+                        <a href="#">Deutsch</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="nav-actions">
+                <div class="nav-item simple-dropdown lang-desktop" style="display: flex; align-items: center; margin-right: 15px;">
+                    <a href="#" style="display: flex; align-items: center; gap: 8px; border: 1px solid var(--border-subtle); padding: 8px 15px; border-radius: 4px; color: var(--primary-navy); text-decoration: none; font-weight: 500;">
+                        <i class="fas fa-globe"></i> Language <i class="fas fa-chevron-down" style="font-size:0.7rem; margin-left: 2px;"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-right" style="min-width: 150px;">
+                        <a href="#">English</a>
+                        <a href="#">中文</a>
+                        <a href="#">Español</a>
+                        <a href="#">Français</a>
+                        <a href="#">Deutsch</a>
+                    </div>
+                </div>
+                <a href="index.html#contact" class="btn-primary">Contact</a>
+                <i class="fas fa-bars mobile-toggle"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Specialized Hero Section -->
+        <section class="hero section-dark" id="home"
+            style="min-height: 50vh; padding-top: 180px; padding-bottom: 80px; position: relative; background: linear-gradient(rgba(18, 48, 74, 0.8), rgba(10, 15, 25, 0.95)), url('assets/services_banner.png') no-repeat center center/cover; background-attachment: fixed;">
+            <div class="container" style="position: relative; z-index: 1; text-align: center;">
+                <p class="overtitle" style="margin-left: auto; margin-right: auto; color: var(--accent-cyan);">DOMAINS
+                    OF EXPERTISE</p>
+                <h1 class="hero-title" style="margin-bottom: 25px; color: white;">Professional Focus</h1>
+                <p class="hero-subtitle" style="margin: 0 auto; max-width: 750px; color: rgba(255,255,255,0.85);">
+                    Advanced service verticals engineered for modern medical institutions and global health
+                    infrastructure. We elevate the standards of cross-border clinical trade through uncompromising
+                    reliability.</p>
+            </div>
+        </section>
+
+        <!-- Clinical Systems -->
+        <section class="section-light" id="clinical" style="padding: 120px 0;">
+            <div class="container grid-2-col" style="align-items: center; gap: 80px;">
+                <div class="fade-in-section">
+                    <img src="assets/clinical.png" alt="Clinical Systems Integration"
+                        style="width:100%; height: 500px; object-fit: cover; border-radius: var(--border-radius); box-shadow: 0 20px 40px rgba(18,48,74,0.1);">
+                </div>
+                <div class="fade-in-section" style="transition-delay: 0.2s;">
+                    <div class="section-header">
+                        <h2>Medical Equipment & Diagnostics Distribution</h2>
+                        <div class="header-line"></div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 40px; margin-top: 40px;">
+                        <div style="display: flex; gap: 20px; scroll-margin-top: 120px;" id="diagnostics">
+
+                            <div>
+                                <h4 style="font-size: 1.3rem; margin-bottom: 10px;">Advanced Diagnostics Supply</h4>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>What it is:</strong> The provision and scaling of sophisticated,
+                                    next-generation medical imaging and diagnostic machinery tailored for precise
+                                    clinical evaluations.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>What we provide:</strong> Averence Medical Group sources and rapidly
+                                    distributes FDA-equivalent, state-of-the-art MRI, CT scanners, and automated
+                                    laboratory testing infrastructure. We guarantee fully vetted, quality-assured
+                                    machinery directly from trusted international manufacturers.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>Who it serves:</strong> Large-scale hospital networks, independent
+                                    diagnostic centers, and specialized medical research facilities.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary);"><strong>The value it
+                                        provides:</strong> By eliminating procurement bottlenecks and guaranteeing
+                                    equipment reliability, we empower clinicians to vastly improve early detection
+                                    rates.</p>
+                            </div>
+                        </div>
+                        <div style="display: flex; gap: 20px; scroll-margin-top: 120px;" id="consumables">
+
+                            <div>
+                                <h4 style="font-size: 1.3rem; margin-bottom: 10px;">Specialized Medical Consumables</h4>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>What it is:</strong> A stable, high-volume pipeline of critical healthcare
+                                    consumables, protective gear, and surgical instruments necessary for daily facility
+                                    operations.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>What we provide:</strong> We negotiate, procure, and distribute massive
+                                    inventories of specialized healthcare products. Averence actively mitigates supply
+                                    shortages by establishing redundant, globally distributed sourcing avenues for our
+                                    clients.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>Who it serves:</strong> Purchasing directors, national health services, and
+                                    private healthcare conglomerates tasked with outfitting multi-branch clinical
+                                    locations.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary);"><strong>The value it
+                                        provides:</strong> Utmost confidence and operational continuity. Our reliable
+                                    bulk sourcing ensures hospitals never experience critical shortages of fundamental
+                                    tools.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enterprise Scale -->
+        <section class="section-dark" id="enterprise" style="padding: 120px 0;">
+            <div class="container grid-2-col" style="align-items: center; gap: 80px;">
+                <div class="fade-in-section">
+                    <div class="section-header">
+                        <h2>International Corporate Logistics</h2>
+                        <div class="header-line"></div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 40px; margin-top: 40px;">
+                        <div style="display: flex; gap: 20px; scroll-margin-top: 120px;" id="procurement">
+
+                            <div>
+                                <h4 style="font-size: 1.3rem; margin-bottom: 10px; color: white;">Global Procurement
+                                    Strategy</h4>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>What it is:</strong> Strategic oversight and management of large-cap medical
+                                    equipment acquisitions spanning multiple international jurisdictions.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>What we provide:</strong> We execute end-to-end logistics solutions,
+                                    securing optimal pricing and delivery windows for heavy operational infrastructure.
+                                    Our team navigates customs, warehousing, and final-mile institutional delivery.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>Who it serves:</strong> Expanding hospital networks, newly constructed
+                                    clinical facilities, and international medical investors.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary);"><strong>The value it
+                                        provides:</strong> Substantial cost-efficiencies and mitigated risk. Clients can
+                                    scale their healthcare footprints knowing their physical apparatus is handled by
+                                    seasoned international business professionals.</p>
+                            </div>
+                        </div>
+                        <div style="display: flex; gap: 20px; scroll-margin-top: 120px;" id="cross-border">
+
+                            <div>
+                                <h4 style="font-size: 1.3rem; margin-bottom: 10px; color: white;">Cross-Border
+                                    Healthcare Trade</h4>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>What it is:</strong> The facilitation of complex, multi-national trade
+                                    agreements allowing the import and export of restricted, highly controlled medical
+                                    solutions.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>What we provide:</strong> Averence leverages profound regulatory expertise
+                                    to smoothly pioneer access to isolated or saturated markets, connecting pioneering
+                                    medical manufacturers with eager international buyer pools.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>Who it serves:</strong> Pharmaceutical suppliers, specialized tech
+                                    manufacturers, and regional government health ministries.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary);"><strong>The value it
+                                        provides:</strong> Global reach. We dissolve traditional international trade
+                                    barriers, allowing world-class medical technologies to transcend geography.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fade-in-section" style="transition-delay: 0.2s;">
+                    <img src="assets/enterprise.png" alt="International Corporate Logistics"
+                        style="width:100%; height: 500px; object-fit: cover; border-radius: var(--border-radius); box-shadow: 0 20px 40px rgba(0,0,0,0.2);">
+                </div>
+            </div>
+        </section>
+
+        <!-- Global Advisory -->
+        <section class="section-light" id="advisory" style="padding: 120px 0;">
+            <div class="container grid-2-col" style="align-items: center; gap: 80px;">
+                <div class="fade-in-section">
+                    <img src="assets/advisory.png" alt="Global Strategic Advisory"
+                        style="width:100%; height: 500px; object-fit: cover; border-radius: var(--border-radius); box-shadow: 0 20px 40px rgba(18,48,74,0.1);">
+                </div>
+                <div class="fade-in-section" style="transition-delay: 0.2s;">
+                    <div class="section-header">
+                        <h2>Global Strategic Advisory</h2>
+                        <div class="header-line"></div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 40px; margin-top: 40px;">
+                        <div style="display: flex; gap: 20px; scroll-margin-top: 120px;" id="compliance">
+
+                            <div>
+                                <h4 style="font-size: 1.3rem; margin-bottom: 10px;">Industry Compliance Advisory</h4>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>What it is:</strong> High-level consultancy focusing on the rigorous
+                                    adherence to international medical distribution standards and trade protocols.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>What we provide:</strong> Dedicated strategists analyzing your institutional
+                                    procurement methods. We identify compliance vulnerabilities alongside
+                                    inter-continental policies to prevent supply chain embargoes or legal infractions.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>Who it serves:</strong> Healthcare administrators, procurement executives,
+                                    and international boards of directors prioritizing long-term organizational
+                                    stability.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary);"><strong>The value it
+                                        provides:</strong> Complete peace of mind and impenetrable legal safety. We
+                                    insulate your organization from the volatile compliance risks associated with global
+                                    medical sourcing.</p>
+                            </div>
+                        </div>
+                        <div style="display: flex; gap: 20px; scroll-margin-top: 120px;" id="expansion">
+
+                            <div>
+                                <h4 style="font-size: 1.3rem; margin-bottom: 10px;">Strategic Market Expansion</h4>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>What it is:</strong> Actionable corporate guidance allowing established
+                                    healthcare entities to confidently scale operations into uncharted international
+                                    territories.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>What we provide:</strong> Through meticulous market research and embedded
+                                    local partnerships, Averence clears the pathway for medical suppliers and franchised
+                                    institutions to establish a reputable, profitable presence abroad.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 10px;">
+                                    <strong>Who it serves:</strong> Ambitious medical enterprise stakeholders and
+                                    healthcare venture capital consortiums seeking scalable growth.
+                                </p>
+                                <p style="font-size: 0.95rem; color: var(--text-secondary);"><strong>The value it
+                                        provides:</strong> Accelerated, secure revenue expansion backed by professional
+                                    market insight, circumventing the costly errors typically associated with
+                                    international healthcare deployment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Consistent Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col brand-col">
+                <span class="logo-text">AVERENCE</span>
+                <p>Innovative cross-border trade in medical technology.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p style="margin-bottom: 15px; font-size: 0.95rem;">We invite potential clients and business partners to
+                    reach out for strategic collaborations.</p>
+                <a href="mailto:contact@averencemedical.com" class="footer-link">contact@averencemedical.com</a>
+                <p class="locations" style="margin-top: 15px;">Global Logistics Hubs in Major Commercial Centers</p>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <span class="footer-link" style="cursor: default; pointer-events: none;">Privacy Policy</span>
+                <span class="footer-link" style="cursor: default; pointer-events: none;">Terms of Service</span>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Averence Medical Group. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="i18n.js"></script>
+</body>
+
+</html>
